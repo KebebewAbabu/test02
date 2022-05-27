@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Build a Survey Form  </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id = "title"> Build a Survey Form </h1>
+<p id = "description">  This is the desctription for the survey </p>
+<form id = "survey-form">
+  <label id = "name-label"> Name: </label>
+  <input id = "name" type = "text" placeholder = "Name" required > <br>
+  <label id = "email-label"> Email: </label>
+  <input id = "email" type ="email"placeholder = "Email" required><br>
+  <label id = "number-label"> Number: </label>
+  <input id = "number" type ="number" min = 50 max=100 placeholder = "Number"> <br>
+<label id = "number-label"> Choose a language: </label>
+<select id = "dropdown">
+  <option value = "English">English</option>
+  <option value = "Chinness">Chinnes</option> 
+  </select> <br>
+   <label id = "gender"> The gender status:<label> </br>
+   <input type = "radio" name = "gender" value ="m"> M<br>
+    <input type = "radio" name = "gender" value = "F"> F <br>
+  <label id = "work"> Where are you working:<label> </br>
+    <input type = "checkbox" value = "africa"> Africa <br>
+    <input type = "checkbox" value = "america"> America<br>
+    <input type = "checkbox" value = "europ"> Europ<br>
+     <label id = "comment"> Additional comments:<label> </br>
+   <textarea>
+
+     </textarea> </br>
+     <input id = "submit" type = "submit">
+  </form>
+</body>
+</html>
